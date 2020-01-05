@@ -4,7 +4,7 @@ licenselink = "https://github.com/Xzya/simple-hugo-theme/blob/master/LICENSE.md"
 description = "A very simple and lightweight Hugo Theme inspired by the geniuses behind [bettermotherfuckingwebsite.com](http://bettermotherfuckingwebsite.com/)."
 homepage = "https://github.com/Xzya/simple-hugo-theme"
 tags = ["blog", "minimal", "clean", "light"]
-features = ["small page size", "fast", "tags", "google analytics", "pagination"]
+features = ["small page size", "fast", "tags", "pagination"]
 min_version = "0.41"
 
 [author]
