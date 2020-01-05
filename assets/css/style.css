@@ -49,3 +49,8 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+pre,
+code {
+    overflow: auto;
+}
