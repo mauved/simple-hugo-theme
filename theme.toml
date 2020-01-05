@@ -5,7 +5,7 @@ description = "A very simple and lightweight Hugo Theme inspired by the geniuses
 homepage = "https://github.com/Xzya/simple-hugo-theme"
 tags = ["blog", "minimal", "clean", "light"]
 features = ["small page size", "fast", "tags", "pagination"]
-min_version = "0.41"
+min_version = "0.55"
 
 [author]
   name = "Mihail Cristian Dumitru"

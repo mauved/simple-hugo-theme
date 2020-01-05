@@ -13,9 +13,7 @@
         {{- $styles.Content | safeCSS -}}
     </style>
 
-    {{- if .RSSLink }}
-    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-    {{- end -}}
+	<link href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
     {{ partial "head_custom" . }}
 </head>
